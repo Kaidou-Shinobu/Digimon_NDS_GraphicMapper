@@ -1,0 +1,8 @@
+*.tlog
+Debug/LE_NDS_GraphicMapper.log
+*.idb
+Debug/vc141.pdb
+*.vcxproj
+LE_NDS_GraphicMapper.vcxproj.filters
+*.obj
+data/arm9.bin
