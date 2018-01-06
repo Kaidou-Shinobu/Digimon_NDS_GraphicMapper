@@ -5,17 +5,6 @@
 #include <string>
 #include <experimental\filesystem>
 
-std::string split(const std::string& str)
-{
-	size_t found;
-	std::cout << "Splitting: " << str << std::endl;
-	found = str.find_last_of("/\\");
-	std::cout << " folder: " << str.substr(0, found) << std::endl;
-	std::cout << " file: " << str.substr(found + 1) << std::endl;
-	return str.substr(0, found);
-}
-
-
 int main(int argc, char** argv) {
 
 	bool bNarc = false;
